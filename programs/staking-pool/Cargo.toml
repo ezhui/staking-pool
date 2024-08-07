@@ -1,0 +1,24 @@
+[package]
+name = "staking-pool"
+version = "0.1.0"
+description = "Created with Anchor"
+edition = "2021"
+
+[lib]
+crate-type = ["cdylib", "lib"]
+name = "staking_pool"
+
+[features]
+default = []
+cpi = ["no-entrypoint"]
+no-entrypoint = []
+no-idl = []
+no-log-ix-name = []
+idl-build = ["anchor-lang/idl-build","anchor-spl/idl-build"]
+
+[dependencies]
+anchor-lang = "0.30.1"
+anchor-spl = "0.30.1"
+bytemuck = { version = "1.7", features = ["derive"] }
+spl-token = { version = "6.0.0", features = ["no-entrypoint"] }
+anchor-safe-math = "0.5.0"

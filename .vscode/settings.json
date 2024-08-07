@@ -1,0 +1,23 @@
+{
+    "cSpell.words": [
+        "IZERO",
+        "perp",
+        "Pyth",
+        "Saita",
+        "serde",
+        "struct",
+        "structopt",
+        "subsys",
+        "thiserror"
+    ],
+    "rust-analyzer.linkedProjects": ["Cargo.toml"],
+    "editor.formatOnSave": true,
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "[rust]": {
+        "editor.defaultFormatter": "rust-lang.rust-analyzer"
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "javascript.updateImportsOnFileMove.enabled": "always"
+}
